@@ -1,0 +1,6 @@
+framework module Pods_TimeAccountingProject {
+  umbrella header "Pods-TimeAccountingProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'TimeAccountingProject' do
+
+  use_frameworks!
+
+  # Pods for TimeAccountingProject
+
+  target 'TimeAccountingProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TimeAccountingProjectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
