@@ -8,41 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		037EACD0671322EDAC5676F2 /* Pods_TimeAccountingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BB2EE937CA3920196739B2 /* Pods_TimeAccountingProject.framework */; };
-		0AD3848F0D3D629B3724D858 /* Pods_TimeAccountingProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E158D38A65608299994848 /* Pods_TimeAccountingProjectTests.framework */; };
 		C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */; };
 		C1F3A00B1ED5300C00B6A131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A00A1ED5300C00B6A131 /* ViewController.swift */; };
 		C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A00C1ED5300C00B6A131 /* Main.storyboard */; };
 		C1F3A0101ED5300C00B6A131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A00F1ED5300C00B6A131 /* Assets.xcassets */; };
 		C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */; };
-		C1F3A01E1ED5300C00B6A131 /* TimeAccountingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A01D1ED5300C00B6A131 /* TimeAccountingProjectTests.swift */; };
-		C1F3A0291ED5300C00B6A131 /* TimeAccountingProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0281ED5300C00B6A131 /* TimeAccountingProjectUITests.swift */; };
-		D3B9E9401A6EC08C496A22CA /* Pods_TimeAccountingProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81FA8EFA7A5AE98CE95A7F /* Pods_TimeAccountingProjectUITests.framework */; };
+		C1F3A0751ED5675E00B6A131 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0731ED5675E00B6A131 /* ChartViewController.swift */; };
+		C1F3A0761ED5675E00B6A131 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0741ED5675E00B6A131 /* ChartViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C1F3A01A1ED5300C00B6A131 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1F39FFD1ED5300C00B6A131 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1F3A0041ED5300C00B6A131;
-			remoteInfo = TimeAccountingProject;
-		};
-		C1F3A0251ED5300C00B6A131 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1F39FFD1ED5300C00B6A131 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1F3A0041ED5300C00B6A131;
-			remoteInfo = TimeAccountingProject;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17A763D44EEFE19204E717C8 /* Pods-TimeAccountingProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProjectTests/Pods-TimeAccountingProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D81FA8EFA7A5AE98CE95A7F /* Pods_TimeAccountingProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BB2EE937CA3920196739B2 /* Pods_TimeAccountingProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9C7DF4DF7748809367F360 /* Pods_TimeAccountingProject_TimeAccountingProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProject_TimeAccountingProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C5B9357C865807E96511FE /* Pods-TimeAccountingProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProjectUITests/Pods-TimeAccountingProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		979B629A8894757F86DCBFC4 /* Pods-TimeAccountingProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProjectTests/Pods-TimeAccountingProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D493BA9E36E27C34841194D /* Pods-TimeAccountingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProject/Pods-TimeAccountingProject.release.xcconfig"; sourceTree = "<group>"; };
+		A28975DC0D90F12F65CA2F10 /* Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FDCD3AED54E017CC93B882 /* Pods-TimeAccountingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProject/Pods-TimeAccountingProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C1F3A0051ED5300C00B6A131 /* TimeAccountingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAccountingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,12 +34,8 @@
 		C1F3A00F1ED5300C00B6A131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F3A0121ED5300C00B6A131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F3A0141ED5300C00B6A131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F3A0191ED5300C00B6A131 /* TimeAccountingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeAccountingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F3A01D1ED5300C00B6A131 /* TimeAccountingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAccountingProjectTests.swift; sourceTree = "<group>"; };
-		C1F3A01F1ED5300C00B6A131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F3A0241ED5300C00B6A131 /* TimeAccountingProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeAccountingProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F3A0281ED5300C00B6A131 /* TimeAccountingProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAccountingProjectUITests.swift; sourceTree = "<group>"; };
-		C1F3A02A1ED5300C00B6A131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F3A0731ED5675E00B6A131 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		C1F3A0741ED5675E00B6A131 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
 		C4E158D38A65608299994848 /* Pods_TimeAccountingProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CE9B02E7363B47AECC06A1 /* Pods-TimeAccountingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProjectUITests/Pods-TimeAccountingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,22 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F3A0161ED5300C00B6A131 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AD3848F0D3D629B3724D858 /* Pods_TimeAccountingProjectTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1F3A0211ED5300C00B6A131 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3B9E9401A6EC08C496A22CA /* Pods_TimeAccountingProjectUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,6 +58,8 @@
 				40BB2EE937CA3920196739B2 /* Pods_TimeAccountingProject.framework */,
 				C4E158D38A65608299994848 /* Pods_TimeAccountingProjectTests.framework */,
 				1D81FA8EFA7A5AE98CE95A7F /* Pods_TimeAccountingProjectUITests.framework */,
+				4A9C7DF4DF7748809367F360 /* Pods_TimeAccountingProject_TimeAccountingProjectTests.framework */,
+				A28975DC0D90F12F65CA2F10 /* Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				C1F3A0071ED5300C00B6A131 /* TimeAccountingProject */,
-				C1F3A01C1ED5300C00B6A131 /* TimeAccountingProjectTests */,
-				C1F3A0271ED5300C00B6A131 /* TimeAccountingProjectUITests */,
 				C1F3A0061ED5300C00B6A131 /* Products */,
 				D877AC48E3541B24696FFE87 /* Pods */,
 				17A9BB20E2C4A36D28BA95BB /* Frameworks */,
@@ -115,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				C1F3A0051ED5300C00B6A131 /* TimeAccountingProject.app */,
-				C1F3A0191ED5300C00B6A131 /* TimeAccountingProjectTests.xctest */,
-				C1F3A0241ED5300C00B6A131 /* TimeAccountingProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,30 +87,14 @@
 			children = (
 				C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */,
 				C1F3A00A1ED5300C00B6A131 /* ViewController.swift */,
+				C1F3A0731ED5675E00B6A131 /* ChartViewController.swift */,
+				C1F3A0741ED5675E00B6A131 /* ChartViewController.xib */,
 				C1F3A00C1ED5300C00B6A131 /* Main.storyboard */,
 				C1F3A00F1ED5300C00B6A131 /* Assets.xcassets */,
 				C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */,
 				C1F3A0141ED5300C00B6A131 /* Info.plist */,
 			);
 			path = TimeAccountingProject;
-			sourceTree = "<group>";
-		};
-		C1F3A01C1ED5300C00B6A131 /* TimeAccountingProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				C1F3A01D1ED5300C00B6A131 /* TimeAccountingProjectTests.swift */,
-				C1F3A01F1ED5300C00B6A131 /* Info.plist */,
-			);
-			path = TimeAccountingProjectTests;
-			sourceTree = "<group>";
-		};
-		C1F3A0271ED5300C00B6A131 /* TimeAccountingProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C1F3A0281ED5300C00B6A131 /* TimeAccountingProjectUITests.swift */,
-				C1F3A02A1ED5300C00B6A131 /* Info.plist */,
-			);
-			path = TimeAccountingProjectUITests;
 			sourceTree = "<group>";
 		};
 		D877AC48E3541B24696FFE87 /* Pods */ = {
@@ -188,48 +133,6 @@
 			productReference = C1F3A0051ED5300C00B6A131 /* TimeAccountingProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1F3A0181ED5300C00B6A131 /* TimeAccountingProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1F3A0301ED5300C00B6A131 /* Build configuration list for PBXNativeTarget "TimeAccountingProjectTests" */;
-			buildPhases = (
-				CC06DF8C8F7CC7BEC1BEE2D8 /* [CP] Check Pods Manifest.lock */,
-				C1F3A0151ED5300C00B6A131 /* Sources */,
-				C1F3A0161ED5300C00B6A131 /* Frameworks */,
-				C1F3A0171ED5300C00B6A131 /* Resources */,
-				D2C39DCF4540AD93BE2E76CB /* [CP] Embed Pods Frameworks */,
-				2099065C659D7FC8A397B3E8 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1F3A01B1ED5300C00B6A131 /* PBXTargetDependency */,
-			);
-			name = TimeAccountingProjectTests;
-			productName = TimeAccountingProjectTests;
-			productReference = C1F3A0191ED5300C00B6A131 /* TimeAccountingProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C1F3A0231ED5300C00B6A131 /* TimeAccountingProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1F3A0331ED5300C00B6A131 /* Build configuration list for PBXNativeTarget "TimeAccountingProjectUITests" */;
-			buildPhases = (
-				66B9EB3524231E8F66E2F84C /* [CP] Check Pods Manifest.lock */,
-				C1F3A0201ED5300C00B6A131 /* Sources */,
-				C1F3A0211ED5300C00B6A131 /* Frameworks */,
-				C1F3A0221ED5300C00B6A131 /* Resources */,
-				3C3644E825299A3A9971CCCF /* [CP] Embed Pods Frameworks */,
-				11BC7C1EDF78DDDF66F16F70 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1F3A0261ED5300C00B6A131 /* PBXTargetDependency */,
-			);
-			name = TimeAccountingProjectUITests;
-			productName = TimeAccountingProjectUITests;
-			productReference = C1F3A0241ED5300C00B6A131 /* TimeAccountingProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,19 +146,8 @@
 					C1F3A0041ED5300C00B6A131 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QD82P77WSG;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
-					};
-					C1F3A0181ED5300C00B6A131 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QD82P77WSG;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C1F3A0041ED5300C00B6A131;
-					};
-					C1F3A0231ED5300C00B6A131 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QD82P77WSG;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C1F3A0041ED5300C00B6A131;
 					};
 				};
 			};
@@ -273,8 +165,6 @@
 			projectRoot = "";
 			targets = (
 				C1F3A0041ED5300C00B6A131 /* TimeAccountingProject */,
-				C1F3A0181ED5300C00B6A131 /* TimeAccountingProjectTests */,
-				C1F3A0231ED5300C00B6A131 /* TimeAccountingProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,59 +174,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F3A0761ED5675E00B6A131 /* ChartViewController.xib in Resources */,
 				C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */,
 				C1F3A0101ED5300C00B6A131 /* Assets.xcassets in Resources */,
 				C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F3A0171ED5300C00B6A131 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1F3A0221ED5300C00B6A131 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11BC7C1EDF78DDDF66F16F70 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeAccountingProjectUITests/Pods-TimeAccountingProjectUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2099065C659D7FC8A397B3E8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeAccountingProjectTests/Pods-TimeAccountingProjectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		360F256649FB74F6D83B1D97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,21 +199,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3C3644E825299A3A9971CCCF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeAccountingProjectUITests/Pods-TimeAccountingProjectUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E31C8D88DE9A1E3C163A814 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,51 +212,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeAccountingProject/Pods-TimeAccountingProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66B9EB3524231E8F66E2F84C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CC06DF8C8F7CC7BEC1BEE2D8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D2C39DCF4540AD93BE2E76CB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeAccountingProjectTests/Pods-TimeAccountingProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E01747CC7C003179D260842D /* [CP] Copy Pods Resources */ = {
@@ -449,41 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F3A0751ED5675E00B6A131 /* ChartViewController.swift in Sources */,
 				C1F3A00B1ED5300C00B6A131 /* ViewController.swift in Sources */,
 				C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F3A0151ED5300C00B6A131 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1F3A01E1ED5300C00B6A131 /* TimeAccountingProjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1F3A0201ED5300C00B6A131 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1F3A0291ED5300C00B6A131 /* TimeAccountingProjectUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C1F3A01B1ED5300C00B6A131 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1F3A0041ED5300C00B6A131 /* TimeAccountingProject */;
-			targetProxy = C1F3A01A1ED5300C00B6A131 /* PBXContainerItemProxy */;
-		};
-		C1F3A0261ED5300C00B6A131 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1F3A0041ED5300C00B6A131 /* TimeAccountingProject */;
-			targetProxy = C1F3A0251ED5300C00B6A131 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C1F3A00C1ED5300C00B6A131 /* Main.storyboard */ = {
@@ -603,12 +362,14 @@
 			baseConfigurationReference = B8FDCD3AED54E017CC93B882 /* Pods-TimeAccountingProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QD82P77WSG;
 				INFOPLIST_FILE = TimeAccountingProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -618,6 +379,7 @@
 			baseConfigurationReference = 9D493BA9E36E27C34841194D /* Pods-TimeAccountingProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QD82P77WSG;
 				INFOPLIST_FILE = TimeAccountingProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -625,68 +387,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		C1F3A0311ED5300C00B6A131 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17A763D44EEFE19204E717C8 /* Pods-TimeAccountingProjectTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = QD82P77WSG;
-				INFOPLIST_FILE = TimeAccountingProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeAccountingProject.app/TimeAccountingProject";
-			};
-			name = Debug;
-		};
-		C1F3A0321ED5300C00B6A131 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 979B629A8894757F86DCBFC4 /* Pods-TimeAccountingProjectTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = QD82P77WSG;
-				INFOPLIST_FILE = TimeAccountingProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeAccountingProject.app/TimeAccountingProject";
-			};
-			name = Release;
-		};
-		C1F3A0341ED5300C00B6A131 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1CE9B02E7363B47AECC06A1 /* Pods-TimeAccountingProjectUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = QD82P77WSG;
-				INFOPLIST_FILE = TimeAccountingProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = TimeAccountingProject;
-			};
-			name = Debug;
-		};
-		C1F3A0351ED5300C00B6A131 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83C5B9357C865807E96511FE /* Pods-TimeAccountingProjectUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = QD82P77WSG;
-				INFOPLIST_FILE = TimeAccountingProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = TimeAccountingProject;
 			};
 			name = Release;
 		};
@@ -709,22 +409,7 @@
 				C1F3A02F1ED5300C00B6A131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C1F3A0301ED5300C00B6A131 /* Build configuration list for PBXNativeTarget "TimeAccountingProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1F3A0311ED5300C00B6A131 /* Debug */,
-				C1F3A0321ED5300C00B6A131 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		C1F3A0331ED5300C00B6A131 /* Build configuration list for PBXNativeTarget "TimeAccountingProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1F3A0341ED5300C00B6A131 /* Debug */,
-				C1F3A0351ED5300C00B6A131 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

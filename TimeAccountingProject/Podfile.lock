@@ -1,3 +1,14 @@
-PODFILE CHECKSUM: e535697927f77e0ed24f82a8244daa8de50e7973
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+
+DEPENDENCIES:
+  - Charts
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+
+PODFILE CHECKSUM: 9230f6cd6deb7aad4c611cf9b0b76d4b5b437e58
 
 COCOAPODS: 1.2.0
