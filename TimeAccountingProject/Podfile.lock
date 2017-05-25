@@ -2,13 +2,18 @@ PODS:
   - Charts (3.0.2):
     - Charts/Core (= 3.0.2)
   - Charts/Core (3.0.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
 
 DEPENDENCIES:
   - Charts
+  - FMDB
 
 SPEC CHECKSUMS:
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
 
-PODFILE CHECKSUM: 9230f6cd6deb7aad4c611cf9b0b76d4b5b437e58
+PODFILE CHECKSUM: fa6a3913011a71a8f4b2cc3cecbefacbba65ca23
 
 COCOAPODS: 1.2.0

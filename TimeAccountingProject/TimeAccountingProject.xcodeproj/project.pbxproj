@@ -11,10 +11,11 @@
 		C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */; };
 		C1F3A00B1ED5300C00B6A131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A00A1ED5300C00B6A131 /* ViewController.swift */; };
 		C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A00C1ED5300C00B6A131 /* Main.storyboard */; };
-		C1F3A0101ED5300C00B6A131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A00F1ED5300C00B6A131 /* Assets.xcassets */; };
 		C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */; };
-		C1F3A0751ED5675E00B6A131 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0731ED5675E00B6A131 /* ChartViewController.swift */; };
-		C1F3A0761ED5675E00B6A131 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0741ED5675E00B6A131 /* ChartViewController.xib */; };
+		C1F3A0921ED6BF4700B6A131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0911ED6BF4700B6A131 /* Assets.xcassets */; };
+		C1F3A0951ED6C08200B6A131 /* TADatabaseMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0941ED6C08200B6A131 /* TADatabaseMethod.swift */; };
+		C1F3A09A1ED6D2E700B6A131 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0971ED6D2E700B6A131 /* ChartViewController.swift */; };
+		C1F3A09B1ED6D2E700B6A131 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0981ED6D2E700B6A131 /* ChartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,14 +29,15 @@
 		A28975DC0D90F12F65CA2F10 /* Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FDCD3AED54E017CC93B882 /* Pods-TimeAccountingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProject/Pods-TimeAccountingProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C1F3A0051ED5300C00B6A131 /* TimeAccountingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAccountingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F3A00A1ED5300C00B6A131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
+		C1F3A00A1ED5300C00B6A131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		C1F3A00D1ED5300C00B6A131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1F3A00F1ED5300C00B6A131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F3A0121ED5300C00B6A131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1F3A0141ED5300C00B6A131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F3A0731ED5675E00B6A131 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
-		C1F3A0741ED5675E00B6A131 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		C1F3A0141ED5300C00B6A131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		C1F3A0911ED6BF4700B6A131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F3A0941ED6C08200B6A131 /* TADatabaseMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TADatabaseMethod.swift; sourceTree = "<group>"; };
+		C1F3A0971ED6D2E700B6A131 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		C1F3A0981ED6D2E700B6A131 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
 		C4E158D38A65608299994848 /* Pods_TimeAccountingProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CE9B02E7363B47AECC06A1 /* Pods-TimeAccountingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProjectUITests/Pods-TimeAccountingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,16 +87,121 @@
 		C1F3A0071ED5300C00B6A131 /* TimeAccountingProject */ = {
 			isa = PBXGroup;
 			children = (
-				C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */,
-				C1F3A00A1ED5300C00B6A131 /* ViewController.swift */,
-				C1F3A0731ED5675E00B6A131 /* ChartViewController.swift */,
-				C1F3A0741ED5675E00B6A131 /* ChartViewController.xib */,
+				C1F3A0931ED6BF6B00B6A131 /* Main */,
+				C1F3A0831ED6BF0600B6A131 /* Classes */,
+				C1F3A0861ED6BF0600B6A131 /* General */,
+				C1F3A08D1ED6BF0600B6A131 /* GeneralTool */,
+				C1F3A08E1ED6BF0600B6A131 /* resource */,
+			);
+			path = TimeAccountingProject;
+			sourceTree = "<group>";
+		};
+		C1F3A0831ED6BF0600B6A131 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3A0961ED6D2E700B6A131 /* Chart */,
+				C1F3A0991ED6D2E700B6A131 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C1F3A0861ED6BF0600B6A131 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3A0871ED6BF0600B6A131 /* Base */,
+				C1F3A0881ED6BF0600B6A131 /* Categories */,
+				C1F3A0891ED6BF0600B6A131 /* Core */,
+				C1F3A08A1ED6BF0600B6A131 /* Models */,
+				C1F3A08B1ED6BF0600B6A131 /* Public */,
+				C1F3A08C1ED6BF0600B6A131 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		C1F3A0871ED6BF0600B6A131 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C1F3A0881ED6BF0600B6A131 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C1F3A0891ED6BF0600B6A131 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3A0941ED6C08200B6A131 /* TADatabaseMethod.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C1F3A08A1ED6BF0600B6A131 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1F3A08B1ED6BF0600B6A131 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C1F3A08C1ED6BF0600B6A131 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1F3A08D1ED6BF0600B6A131 /* GeneralTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneralTool;
+			sourceTree = "<group>";
+		};
+		C1F3A08E1ED6BF0600B6A131 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3A0911ED6BF4700B6A131 /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		C1F3A0931ED6BF6B00B6A131 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				C1F3A00C1ED5300C00B6A131 /* Main.storyboard */,
-				C1F3A00F1ED5300C00B6A131 /* Assets.xcassets */,
 				C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */,
 				C1F3A0141ED5300C00B6A131 /* Info.plist */,
 			);
-			path = TimeAccountingProject;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C1F3A0961ED6D2E700B6A131 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3A0971ED6D2E700B6A131 /* ChartViewController.swift */,
+				C1F3A0981ED6D2E700B6A131 /* ChartViewController.xib */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		C1F3A0991ED6D2E700B6A131 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */,
+				C1F3A00A1ED5300C00B6A131 /* ViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D877AC48E3541B24696FFE87 /* Pods */ = {
@@ -174,9 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F3A0761ED5675E00B6A131 /* ChartViewController.xib in Resources */,
+				C1F3A09B1ED6D2E700B6A131 /* ChartViewController.xib in Resources */,
 				C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */,
-				C1F3A0101ED5300C00B6A131 /* Assets.xcassets in Resources */,
+				C1F3A0921ED6BF4700B6A131 /* Assets.xcassets in Resources */,
 				C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,9 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F3A0751ED5675E00B6A131 /* ChartViewController.swift in Sources */,
+				C1F3A0951ED6C08200B6A131 /* TADatabaseMethod.swift in Sources */,
 				C1F3A00B1ED5300C00B6A131 /* ViewController.swift in Sources */,
 				C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */,
+				C1F3A09A1ED6D2E700B6A131 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +359,7 @@
 				C1F3A00D1ED5300C00B6A131 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */ = {
@@ -259,6 +368,7 @@
 				C1F3A0121ED5300C00B6A131 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

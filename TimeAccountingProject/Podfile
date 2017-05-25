@@ -9,7 +9,7 @@ target 'TimeAccountingProject' do
 
 
     pod 'Charts'
-
+    pod 'FMDB'
 
 
 

@@ -12,8 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let database: TADatabaseMethod = TADatabaseMethod()
+        database.openDatabase()
+        
     }
     
+    @IBAction func buttonAction(_ sender: Any) {
+        self.navigationController?.pushViewController(ChartViewController(), animated: true)
+    }
 }
 
