@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		037EACD0671322EDAC5676F2 /* Pods_TimeAccountingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BB2EE937CA3920196739B2 /* Pods_TimeAccountingProject.framework */; };
+		C1B434A11EDE957F00429C84 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4349D1EDE957F00429C84 /* ChartViewController.swift */; };
+		C1B434A21EDE957F00429C84 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B4349E1EDE957F00429C84 /* ChartViewController.xib */; };
+		C1B434A81EDE959E00429C84 /* TakeNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434A71EDE959E00429C84 /* TakeNotesViewController.swift */; };
+		C1B434AC1EDE96FB00429C84 /* TADatabaseMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434AB1EDE96FB00429C84 /* TADatabaseMethod.swift */; };
+		C1B434AE1EDE971200429C84 /* TANavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434AD1EDE971200429C84 /* TANavigationViewController.swift */; };
+		C1B434B01EDEA97100429C84 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434AF1EDEA97100429C84 /* Student.swift */; };
+		C1B434B21EDEA9DB00429C84 /* TASQLLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434B11EDEA9DB00429C84 /* TASQLLiteManager.swift */; };
 		C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */; };
-		C1F3A00B1ED5300C00B6A131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A00A1ED5300C00B6A131 /* ViewController.swift */; };
 		C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A00C1ED5300C00B6A131 /* Main.storyboard */; };
 		C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */; };
 		C1F3A0921ED6BF4700B6A131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0911ED6BF4700B6A131 /* Assets.xcassets */; };
-		C1F3A0951ED6C08200B6A131 /* TADatabaseMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0941ED6C08200B6A131 /* TADatabaseMethod.swift */; };
-		C1F3A09A1ED6D2E700B6A131 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0971ED6D2E700B6A131 /* ChartViewController.swift */; };
-		C1F3A09B1ED6D2E700B6A131 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0981ED6D2E700B6A131 /* ChartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,16 +31,19 @@
 		9D493BA9E36E27C34841194D /* Pods-TimeAccountingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProject/Pods-TimeAccountingProject.release.xcconfig"; sourceTree = "<group>"; };
 		A28975DC0D90F12F65CA2F10 /* Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FDCD3AED54E017CC93B882 /* Pods-TimeAccountingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProject/Pods-TimeAccountingProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B4349D1EDE957F00429C84 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		C1B4349E1EDE957F00429C84 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		C1B434A71EDE959E00429C84 /* TakeNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeNotesViewController.swift; sourceTree = "<group>"; };
+		C1B434AB1EDE96FB00429C84 /* TADatabaseMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TADatabaseMethod.swift; sourceTree = "<group>"; };
+		C1B434AD1EDE971200429C84 /* TANavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TANavigationViewController.swift; sourceTree = "<group>"; };
+		C1B434AF1EDEA97100429C84 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		C1B434B11EDEA9DB00429C84 /* TASQLLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TASQLLiteManager.swift; sourceTree = "<group>"; };
 		C1F3A0051ED5300C00B6A131 /* TimeAccountingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAccountingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
-		C1F3A00A1ED5300C00B6A131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		C1F3A00D1ED5300C00B6A131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1F3A0121ED5300C00B6A131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F3A0141ED5300C00B6A131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		C1F3A0911ED6BF4700B6A131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1F3A0941ED6C08200B6A131 /* TADatabaseMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TADatabaseMethod.swift; sourceTree = "<group>"; };
-		C1F3A0971ED6D2E700B6A131 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
-		C1F3A0981ED6D2E700B6A131 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
 		C4E158D38A65608299994848 /* Pods_TimeAccountingProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeAccountingProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CE9B02E7363B47AECC06A1 /* Pods-TimeAccountingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAccountingProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAccountingProjectUITests/Pods-TimeAccountingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +70,79 @@
 				A28975DC0D90F12F65CA2F10 /* Pods_TimeAccountingProject_TimeAccountingProjectUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B4349C1EDE957F00429C84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4349D1EDE957F00429C84 /* ChartViewController.swift */,
+				C1B4349E1EDE957F00429C84 /* ChartViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1B4349F1EDE957F00429C84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1B434A01EDE957F00429C84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B434A31EDE958400429C84 /* TakeNotes */ = {
+			isa = PBXGroup;
+			children = (
+				C1B434A41EDE958400429C84 /* Controller */,
+				C1B434A51EDE958400429C84 /* Model */,
+				C1B434A61EDE958400429C84 /* View */,
+			);
+			path = TakeNotes;
+			sourceTree = "<group>";
+		};
+		C1B434A41EDE958400429C84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1B434A71EDE959E00429C84 /* TakeNotesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1B434A51EDE958400429C84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1B434AF1EDEA97100429C84 /* Student.swift */,
+				C1B434B11EDEA9DB00429C84 /* TASQLLiteManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1B434A61EDE958400429C84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B434A91EDE96EB00429C84 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C1B434AD1EDE971200429C84 /* TANavigationViewController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		C1B434AA1EDE96FB00429C84 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C1B434AB1EDE96FB00429C84 /* TADatabaseMethod.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		C1F39FFC1ED5300C00B6A131 = {
@@ -99,6 +178,7 @@
 		C1F3A0831ED6BF0600B6A131 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C1B434A31EDE958400429C84 /* TakeNotes */,
 				C1F3A0961ED6D2E700B6A131 /* Chart */,
 				C1F3A0991ED6D2E700B6A131 /* Home */,
 			);
@@ -135,7 +215,8 @@
 		C1F3A0891ED6BF0600B6A131 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C1F3A0941ED6C08200B6A131 /* TADatabaseMethod.swift */,
+				C1B434AA1EDE96FB00429C84 /* Database */,
+				C1B434A91EDE96EB00429C84 /* Navigation */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -189,8 +270,9 @@
 		C1F3A0961ED6D2E700B6A131 /* Chart */ = {
 			isa = PBXGroup;
 			children = (
-				C1F3A0971ED6D2E700B6A131 /* ChartViewController.swift */,
-				C1F3A0981ED6D2E700B6A131 /* ChartViewController.xib */,
+				C1B4349C1EDE957F00429C84 /* Controller */,
+				C1B4349F1EDE957F00429C84 /* Model */,
+				C1B434A01EDE957F00429C84 /* View */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -199,7 +281,6 @@
 			isa = PBXGroup;
 			children = (
 				C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */,
-				C1F3A00A1ED5300C00B6A131 /* ViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -281,8 +362,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F3A09B1ED6D2E700B6A131 /* ChartViewController.xib in Resources */,
 				C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */,
+				C1B434A21EDE957F00429C84 /* ChartViewController.xib in Resources */,
 				C1F3A0921ED6BF4700B6A131 /* Assets.xcassets in Resources */,
 				C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */,
 			);
@@ -343,10 +424,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F3A0951ED6C08200B6A131 /* TADatabaseMethod.swift in Sources */,
-				C1F3A00B1ED5300C00B6A131 /* ViewController.swift in Sources */,
+				C1B434B21EDEA9DB00429C84 /* TASQLLiteManager.swift in Sources */,
+				C1B434A81EDE959E00429C84 /* TakeNotesViewController.swift in Sources */,
+				C1B434B01EDEA97100429C84 /* Student.swift in Sources */,
+				C1B434A11EDE957F00429C84 /* ChartViewController.swift in Sources */,
+				C1B434AC1EDE96FB00429C84 /* TADatabaseMethod.swift in Sources */,
 				C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */,
-				C1F3A09A1ED6D2E700B6A131 /* ChartViewController.swift in Sources */,
+				C1B434AE1EDE971200429C84 /* TANavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +559,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QD82P77WSG;
 				INFOPLIST_FILE = TimeAccountingProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,7 +576,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QD82P77WSG;
 				INFOPLIST_FILE = TimeAccountingProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
