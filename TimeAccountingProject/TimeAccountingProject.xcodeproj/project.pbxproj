@@ -15,6 +15,7 @@
 		C1B434AE1EDE971200429C84 /* TANavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434AD1EDE971200429C84 /* TANavigationViewController.swift */; };
 		C1B434B01EDEA97100429C84 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434AF1EDEA97100429C84 /* Student.swift */; };
 		C1B434B21EDEA9DB00429C84 /* TASQLLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B434B11EDEA9DB00429C84 /* TASQLLiteManager.swift */; };
+		C1C6BDDE1EE69BF8009E0D8E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6BDDD1EE69BF8009E0D8E /* CloudKit.framework */; };
 		C1F3A0091ED5300C00B6A131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */; };
 		C1F3A00E1ED5300C00B6A131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A00C1ED5300C00B6A131 /* Main.storyboard */; };
 		C1F3A0131ED5300C00B6A131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3A0111ED5300C00B6A131 /* LaunchScreen.storyboard */; };
@@ -38,6 +39,8 @@
 		C1B434AD1EDE971200429C84 /* TANavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TANavigationViewController.swift; sourceTree = "<group>"; };
 		C1B434AF1EDEA97100429C84 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		C1B434B11EDEA9DB00429C84 /* TASQLLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TASQLLiteManager.swift; sourceTree = "<group>"; };
+		C1C6BDDA1EE69630009E0D8E /* TimeAccountingProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeAccountingProject.entitlements; sourceTree = "<group>"; };
+		C1C6BDDD1EE69BF8009E0D8E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C1F3A0051ED5300C00B6A131 /* TimeAccountingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAccountingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F3A0081ED5300C00B6A131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		C1F3A00D1ED5300C00B6A131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				037EACD0671322EDAC5676F2 /* Pods_TimeAccountingProject.framework in Frameworks */,
+				C1C6BDDE1EE69BF8009E0D8E /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 		17A9BB20E2C4A36D28BA95BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1C6BDDD1EE69BF8009E0D8E /* CloudKit.framework */,
 				40BB2EE937CA3920196739B2 /* Pods_TimeAccountingProject.framework */,
 				C4E158D38A65608299994848 /* Pods_TimeAccountingProjectTests.framework */,
 				1D81FA8EFA7A5AE98CE95A7F /* Pods_TimeAccountingProjectUITests.framework */,
@@ -166,6 +171,7 @@
 		C1F3A0071ED5300C00B6A131 /* TimeAccountingProject */ = {
 			isa = PBXGroup;
 			children = (
+				C1C6BDDA1EE69630009E0D8E /* TimeAccountingProject.entitlements */,
 				C1F3A0931ED6BF6B00B6A131 /* Main */,
 				C1F3A0831ED6BF0600B6A131 /* Classes */,
 				C1F3A0861ED6BF0600B6A131 /* General */,
@@ -333,9 +339,20 @@
 				TargetAttributes = {
 					C1F3A0041ED5300C00B6A131 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QD82P77WSG;
+						DevelopmentTeam = R5QX2A2ZZB;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -557,12 +574,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = QD82P77WSG;
+				CODE_SIGN_ENTITLEMENTS = TimeAccountingProject/TimeAccountingProject.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R5QX2A2ZZB;
 				INFOPLIST_FILE = TimeAccountingProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccounting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -574,12 +594,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = QD82P77WSG;
+				CODE_SIGN_ENTITLEMENTS = TimeAccountingProject/TimeAccountingProject.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R5QX2A2ZZB;
 				INFOPLIST_FILE = TimeAccountingProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccountingProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocfly.TimeAccounting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

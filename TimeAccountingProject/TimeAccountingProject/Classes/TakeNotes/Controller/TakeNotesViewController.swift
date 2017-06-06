@@ -14,8 +14,7 @@ class TakeNotesViewController: UIViewController {
         super.viewDidLoad()
 
 
-//        let database: TADatabaseMethod = TADatabaseMethod()
-//        database.openDatabase()
+        
         
         
     
